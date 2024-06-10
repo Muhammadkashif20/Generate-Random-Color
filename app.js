@@ -12,8 +12,11 @@ Button.addEventListener("click", function () {
   }
 });
 function copyBtn() {
-var copybtn=document.getElementById('copy')
+  var copybtn=document.getElementById('copy')
    var copyText=copybtn=showBox.innerText
-console.log(copyText);
+// alert(`Copied: ${copyText}`);
+navigator.clipboard.writeText(copyText)
+
+
 }
 
