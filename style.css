@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(223, 91%, 64%);
+    
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    
+}
+#mainBox{
+    background-color: white;
+    width: 21rem;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+ border-radius: 6px;
+}   
+#mainBox:hover{
+    box-shadow: 7px 4px 5px rgba(7, 3, 3, 0.28);
+}
+#headText{
+    background-color:rgba(255, 255, 255, 0);
+    color: #2852BC;
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 1.5rem;
+    
+}
+#box{
+    width:17rem;
+    height: 12rem;
+    margin-top: 1.5rem;
+    border-radius: 4px;
+}
+#showBox{
+    border-radius: 4px;
+    width: 17rem;
+    height: 2rem;
+    border: 1px solid rgba(185, 183, 183, 0.633);
+    text-align: center;
+    margin-top: 1rem;
+    padding-top: .5rem;
+    background-color: #F1F6FC;
+    color: #495BB5;
+    font-weight:bolder;
+    font-size: 17px;
+}
+#btn{
+    border-radius: 4px;
+    width: 7rem;
+    height: 3rem;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    border: none;
+    background-color: #377DB3;
+    position: relative;
+    top: 1.2rem;
+    right: 4rem;
+ }
+ #btn:hover{
+    box-shadow: 4px 5px 6px rgba(0, 0, 0, 0.28);
+
+ }
+ #copy{
+    border-radius: 4px;
+    width: 7rem;
+    height: 3rem;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    border: none;
+    background-color: #AC7A1B;
+    position: relative;
+    top: -1.6rem;
+    left: 4rem;
+ }
+ #copy:hover{
+    box-shadow: 4px 5px 6px rgba(0, 0, 0, 0.28);
+
+ }
